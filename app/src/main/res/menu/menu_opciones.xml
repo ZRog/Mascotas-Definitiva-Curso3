@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mAbout"
+        android:title="Contacto"
+        android:orderInCategory="100"/>
+    <item
+        android:id="@+id/mSettings"
+        android:title="Acerca De"
+        android:orderInCategory="101"/>
+
+    <item
+        android:id="@+id/topmascotas"
+        android:title="TopMascotas"
+        android:orderInCategory="102"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_estrella"/>
+</menu>
